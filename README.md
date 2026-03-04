@@ -103,6 +103,9 @@ http://localhost:8000
 
 ### 1. Register Customer
 
+<img width="2775" height="1600" alt="Screenshot 2026-03-04 171628" src="https://github.com/user-attachments/assets/0b3af257-227d-4803-9abc-af2ccaaaa206" />
+
+
 POST `/api/register/`
 
 Request:
@@ -135,6 +138,9 @@ Response:
 
 ### 2. Check Loan Eligibility
 
+
+<img width="2765" height="1613" alt="Screenshot 2026-03-04 171818" src="https://github.com/user-attachments/assets/ffaab946-8c92-4fd4-b26e-e5fcdd20828a" />
+
 POST `/api/check-eligibility/`
 
 Request:
@@ -165,6 +171,9 @@ Response:
 
 ### 3. Create Loan
 
+<img width="2781" height="1607" alt="Screenshot 2026-03-04 172016" src="https://github.com/user-attachments/assets/0b02cff7-0cef-4833-9214-79312dc90516" />
+
+
 POST `/api/create-loan/`
 
 Request:
@@ -193,6 +202,9 @@ Response:
 
 ### 4. View Customer Loans
 
+<img width="2783" height="1596" alt="Screenshot 2026-03-04 172130" src="https://github.com/user-attachments/assets/cded74f4-4fce-41ff-8b0a-bb36bc0ac730" />
+
+
 GET `/api/view-loans/{customer_id}`
 
 Example:
@@ -217,7 +229,9 @@ Response:
 
 ---
 
-### 5. View Loan Details
+### 5. View Loan Details 
+
+<img width="2788" height="1594" alt="Screenshot 2026-03-04 172418" src="https://github.com/user-attachments/assets/03c24545-2292-4e9e-bd53-81c8946921ed" />
 
 GET `/api/view-loan/{loan_id}`
 
